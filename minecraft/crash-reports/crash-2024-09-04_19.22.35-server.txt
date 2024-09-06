@@ -1,0 +1,1488 @@
+---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 2024-09-04 19:22:35 CDT
+Description: Exception in server tick loop
+
+java.lang.StackOverflowError
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:177)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+    at net.minecraft.block.BlockChest.checkForSurroundingChests(BlockChest.java:261)
+    at net.minecraft.block.BlockChest.onBlockAdded(BlockChest.java:98)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(World.java:343)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 11 (amd64) version 10.0
+  Java Version: 1.8.0_331, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 1544493096 bytes (1472 MB) / 9425125376 bytes (8988 MB) up to 9425125376 bytes (8988 MB)
+  JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx10112m
+  IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  FML: MCP 9.42 Powered by Forge 14.23.5.2855 307 mods loaded, 306 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State  | ID                                           | Version                  | Source                                               | Signature                                |
+       |:------ |:-------------------------------------------- |:------------------------ |:---------------------------------------------------- |:---------------------------------------- |
+       | LCHIJA | minecraft                                    | 1.12.2                   | minecraft.jar                                        | None                                     |
+       | LCHIJA | mcp                                          | 9.42                     | minecraft.jar                                        | None                                     |
+       | LCHIJA | FML                                          | 8.0.99.99                | forge-1.12.2-14.23.5.2855-universal.jar              | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | LCHIJA | forge                                        | 14.23.5.2855             | forge-1.12.2-14.23.5.2855-universal.jar              | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | LCHIJA | creativecoredummy                            | 1.0.0                    | minecraft.jar                                        | None                                     |
+       | LCHIJA | littletilescore                              | 1.0.0                    | minecraft.jar                                        | None                                     |
+       | LCHIJA | persistency                                  | 1.2.0                    | minecraft.jar                                        | None                                     |
+       | LCHIJA | com.elytradev.movingworld.common.asm.coremod |                          | minecraft.jar                                        | None                                     |
+       | LCHIJA | thaumtweaks_core                             | 1.0                      | minecraft.jar                                        | None                                     |
+       | LCHIJA | openmodscore                                 | 0.12.2                   | minecraft.jar                                        | None                                     |
+       | LCHIJA | foamfixcore                                  | 7.7.4                    | minecraft.jar                                        | None                                     |
+       | LCHIJA | opencomputers|core                           | 1.7.5.192                | minecraft.jar                                        | None                                     |
+       | LCHIJA | randompatches                                | 1.12.2-1.22.1.10         | randompatches-1.12.2-1.22.1.10.jar                   | None                                     |
+       | LCHIJA | techguns_core                                | 1.12.2-1.0               | minecraft.jar                                        | None                                     |
+       | LCHIJA | witchery                                     | 1.12.2-0.5.2.3-forge     | WitcheryResurrected-1.12.2-0.5.2.3-forge-all.jar     | None                                     |
+       | LCHIJA | actuallyadditions                            | 1.12.2-r152              | ActuallyAdditions-1.12.2-r152.jar                    | None                                     |
+       | LCHIJA | additional_lights                            | 1.12.2-1.2.1             | additional_lights-1.12.2-1.2.1.jar                   | None                                     |
+       | LCHIJA | supermartijn642corelib                       | 1.0.15a                  | supermartijn642corelib-1.0.15a-mc1.12.jar            | None                                     |
+       | LCHIJA | additionallanterns                           | 1.0.0                    | additionallanterns-1.0.0-mc1.12.jar                  | None                                     |
+       | LCHIJA | forgeendertech                               | 1.12.2-4.5.6.0           | ForgeEndertech-1.12.2-4.5.6.0-build.0619.jar         | None                                     |
+       | LCHIJA | adhooks                                      | 1.12.2-3.3.1.0           | AdHooks-1.12.2-3.3.1.0-build.0626.jar                | None                                     |
+       | LCHIJA | redstoneflux                                 | 2.1.1                    | RedstoneFlux-1.12-2.1.1.1-universal.jar              | None                                     |
+       | LCHIJA | cofhcore                                     | 4.6.6                    | CoFHCore-1.12.2-4.6.6.1-universal.jar                | None                                     |
+       | LCHIJA | engineersdecor                               | 1.1.3                    | engineersdecor-1.12.2-1.1.3.jar                      | ed58ed655893ced6280650866985abcae2bf7559 |
+       | LCHIJA | jei                                          | 4.16.1.302               | jei_1.12.2-4.16.1.302.jar                            | None                                     |
+       | LCHIJA | ctm                                          | MC1.12.2-1.0.2.31        | CTM-MC1.12.2-1.0.2.31.jar                            | None                                     |
+       | LCHIJA | roots                                        | 1.12.2-3.1.4             | Roots-1.12.2-3.1.4.jar                               | None                                     |
+       | LCHIJA | mysticalworld                                | 1.12.2-1.11.0            | mysticalworld-1.12.2-1.11.0.jar                      | None                                     |
+       | LCHIJA | chisel                                       | MC1.12.2-1.0.2.45        | Chisel-MC1.12.2-1.0.2.45.jar                         | None                                     |
+       | LCHIJA | baubles                                      | 1.5.2                    | Baubles-1.12-1.5.2.jar                               | None                                     |
+       | LCHIJA | endercore                                    | 1.12.2-0.5.76            | EnderCore-1.12.2-0.5.76.jar                          | None                                     |
+       | LCHIJA | thaumcraft                                   | 6.1.BETA26               | Thaumcraft-1.12.2-6.1.BETA26.jar                     | None                                     |
+       | LCHIJA | codechickenlib                               | 3.2.3.358                | CodeChickenLib-1.12.2-3.2.3.358-universal.jar        | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LCHIJA | brandonscore                                 | 2.4.20                   | BrandonsCore-1.12.2-2.4.20.162-universal.jar         | None                                     |
+       | LCHIJA | cofhworld                                    | 1.4.0                    | CoFHWorld-1.12.2-1.4.0.1-universal.jar               | None                                     |
+       | LCHIJA | thermalfoundation                            | 2.6.7                    | ThermalFoundation-1.12.2-2.6.7.1-universal.jar       | None                                     |
+       | LCHIJA | draconicevolution                            | 2.3.28                   | Draconic-Evolution-1.12.2-2.3.28.354-universal.jar   | None                                     |
+       | LCHIJA | thermalexpansion                             | 5.5.7                    | ThermalExpansion-1.12.2-5.5.7.1-universal.jar        | None                                     |
+       | LCHIJA | tombstone                                    | 4.5.1                    | tombstone-4.5.1-1.12.2.jar                           | None                                     |
+       | LCHIJA | enderio                                      | 5.3.70                   | EnderIO-1.12.2-5.3.70.jar                            | None                                     |
+       | LCHIJA | enderiointegrationtic                        | 5.3.70                   | EnderIO-1.12.2-5.3.70.jar                            | None                                     |
+       | LCHIJA | mantle                                       | 1.12-1.3.3.55            | Mantle-1.12-1.3.3.55.jar                             | None                                     |
+       | LCHIJA | quark                                        | r1.6-179                 | Quark-r1.6-179.jar                                   | None                                     |
+       | LCHIJA | tconstruct                                   | 1.12.2-2.13.0.183        | TConstruct-1.12.2-2.13.0.183.jar                     | None                                     |
+       | LCHIJA | theoneprobe                                  | 1.4.28                   | theoneprobe-1.12-1.4.28.jar                          | None                                     |
+       | LCHIJA | immersiveengineering                         | 0.12-98                  | ImmersiveEngineering-0.12-98.jar                     | None                                     |
+       | LCHIJA | libvulpes                                    | 0.4.2.-85                | LibVulpes-1.12.2-0.4.2-85-universal.jar              | None                                     |
+       | LCHIJA | advancedrocketry                             | 2.0.0.-256               | AdvancedRocketry-1.12.2-2.0.0-256-universal.jar      | None                                     |
+       | LCHIJA | aether_legacy                                | 1.5.3.2                  | aether-1.12.2-v1.5.3.2.jar                           | None                                     |
+       | LCHIJA | aether_legacy_addon                          | 1.12.2-v1.3.0            | Aether Continuation v1.3.0.jar                       | None                                     |
+       | LCHIJA | mysticalmechanics                            | 0.18                     | Mystical Mechanics-0.18.jar                          | None                                     |
+       | LCHIJA | embers                                       | 1.18                     | EmbersRekindled-1.18.jar                             | None                                     |
+       | LCHIJA | aetheriumashenarmor                          | 1.0.2                    | Aetherium Ashen Armor-Release-1.12.2-1.2.1.jar       | None                                     |
+       | LCHIJA | aetherworks                                  | 1.12.2-1.0.0.3           | AetherWorks-1.12.2-1.0.0.3.jar                       | None                                     |
+       | LCHIJA | akashictome                                  | 1.2-12                   | AkashicTome-1.2-12.jar                               | None                                     |
+       | LCHIJA | ancientwarfare                               | 1.12.2-2.7.0.1038        | ancientwarfare-1.12.2-2.7.0.1038.jar                 | None                                     |
+       | LCHIJA | ancientwarfareautomation                     | 1.12.2-2.7.0.1038        | ancientwarfare-1.12.2-2.7.0.1038.jar                 | None                                     |
+       | LCHIJA | ancientwarfarenpc                            | 1.12.2-2.7.0.1038        | ancientwarfare-1.12.2-2.7.0.1038.jar                 | None                                     |
+       | LCHIJA | ancientwarfarestructure                      | 1.12.2-2.7.0.1038        | ancientwarfare-1.12.2-2.7.0.1038.jar                 | None                                     |
+       | LCHIJA | ancientwarfarevehicle                        | 1.12.2-2.7.0.1038        | ancientwarfare-1.12.2-2.7.0.1038.jar                 | None                                     |
+       | LCHIJA | aoa3                                         | 3.3.6                    | AoA3-3.3.6.jar                                       | 8bddeac148843f40e0b9f69201be2f4b3071700d |
+       | LCHIJA | appleskin                                    | 1.0.14                   | AppleSkin-mc1.12-1.0.14.jar                          | None                                     |
+       | LCHIJA | appliedenergistics2                          | rv6-stable-7             | appliedenergistics2-rv6-stable-7.jar                 | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+       | LCHIJA | aquaculture                                  | 1.6.8                    | Aquaculture-1.12.2-1.6.8.jar                         | None                                     |
+       | LCHIJA | ebwizardry                                   | 4.3.4                    | ElectroblobsWizardry-4.3.4-MC1.12.2.jar              | None                                     |
+       | LCHIJA | arcane_essentials                            | 1.0                      | Arcane Essentials-1.0.0-alpha-11.jar                 | None                                     |
+       | LCHIJA | gbook_snapshot                               | 2.9.1.s5                 | Guidebook-1.12.2-2.9.1.s5.jar                        | None                                     |
+       | LCHIJA | arcanearchives                               | 0.2.0.25-mixins8         | arcanearchives-0.2.0.25-mixins8.jar                  | None                                     |
+       | LCHIJA | conarm                                       | 1.2.5.10                 | conarm-1.12.2-1.2.5.10.jar                           | b33d2c8df492beff56d1bbbc92da49b8ab7345a1 |
+       | LCHIJA | armoryexpansion                              | 1.4.2                    | armoryexpansion-1.4.2.jar                            | None                                     |
+       | LCHIJA | armoryexpansion-custommaterials              | 1.4.2                    | armoryexpansion-1.4.2.jar                            | None                                     |
+       | LCHIJA | armoryexpansion-iceandfire                   | 1.4.2                    | armoryexpansion-1.4.2.jar                            | None                                     |
+       | LCHIJA | armoryexpansion-matteroverdrive              | 1.4.2                    | armoryexpansion-1.4.2.jar                            | None                                     |
+       | LCHIJA | armoryexpansion-bitsandpieces                | 0.0.1                    | armoryexpansion-bitsandpieces-0.0.1.jar              | None                                     |
+       | LCHIJA | artemislib                                   | 1.0.6                    | ArtemisLib-1.12.2-v1.0.6.jar                         | None                                     |
+       | LCHIJA | astralsorcery                                | 1.10.27                  | astralsorcery-1.12.2-1.10.27.jar                     | a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0 |
+       | LCHIJA | astrosorc                                    | 1.1.3                    | astrologicalsorcery-1.12.2-1.1.3.jar                 | None                                     |
+       | LCHIJA | atlcraft                                     | MC1.12-Ver1.9            | ATLCraftCandlesMod(MC1.12-Ver1.9).jar                | None                                     |
+       | LCHIJA | atum                                         | 2.0.20                   | Atum-1.12.2-2.0.20.jar                               | None                                     |
+       | LCHIJA | audiocassettes                               | 1.1                      | Audio Cassettes-1.12.2-1.1.jar                       | None                                     |
+       | LCHIJA | autoreglib                                   | 1.3-32                   | AutoRegLib-1.3-32.jar                                | None                                     |
+       | LCHIJA | avaritia                                     | 3.3.0                    | Avaritia-1.12.2-3.3.0.37-universal.jar               | None                                     |
+       | LCHIJA | avaritiaio                                   | @VERSION@                | avaritiaio-1.4.jar                                   | None                                     |
+       | LCHIJA | betteradvancements                           | 0.1.0.77                 | BetterAdvancements-1.12.2-0.1.0.77.jar               | None                                     |
+       | LCHIJA | betterbuilderswands                          | 0.13.2                   | BetterBuildersWands-1.12.2-0.13.2.271-5997513.jar    | None                                     |
+       | LCHIJA | bettercaves                                  | 1.12.2                   | bettercaves-1.12.2-2.0.4.jar                         | None                                     |
+       | LCHIJA | bettermineshafts                             | 1.12.2-2.2.1             | BetterMineshaftsForge-1.12.2-2.2.1.jar               | None                                     |
+       | LCHIJA | betternether                                 | 0.1.8.6                  | betternether-0.1.8.6.jar                             | None                                     |
+       | LCHIJA | bibliocraft                                  | 2.4.5                    | BiblioCraft[v2.4.5][MC1.12.2].jar                    | None                                     |
+       | LCHIJA | biggerpacketsplz                             | 1.2                      | biggerpacketsplz-since1.8-1.2.jar                    | 266588b191a3e2974a4a577f282858a3bc07da42 |
+       | LCHIJA | biomesoplenty                                | 7.0.1.2444               | BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar        | None                                     |
+       | LCHIJA | blockcraftery                                | 1.12.2-1.3.1             | blockcraftery-1.12.2-1.3.1.jar                       | None                                     |
+       | LCHIJA | cyclicmagic                                  | 1.20.11                  | Cyclic-1.12.2-1.20.11.jar                            | 0e5cb559be7d03f3fc18b8cba547d663e25f28af |
+       | LCHIJA | guideapi                                     | 1.12-2.1.8-63            | Guide-API-1.12-2.1.8-63.jar                          | None                                     |
+       | LCHIJA | bloodmagic                                   | 1.12.2-2.4.3-105         | BloodMagic-1.12.2-2.4.3-105.jar                      | None                                     |
+       | LCHIJA | bloodtinker                                  | 1.0.5                    | bloodtinker-1.0.5.jar                                | None                                     |
+       | LCHIJA | bookshelf                                    | 2.3.590                  | Bookshelf-1.12.2-2.3.590.jar                         | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LCHIJA | botania                                      | r1.10-364                | Botania r1.10-364.4.jar                              | None                                     |
+       | LCHIJA | buildinggadgets                              | 2.8.4                    | BuildingGadgets-2.8.4.jar                            | None                                     |
+       | LCHIJA | capsule                                      | 1.12.2-3.4.76            | Capsule-1.12.2-3.4.76.jar                            | None                                     |
+       | LCHIJA | carryon                                      | 1.12.3                   | carryon-1.12.2-1.12.6.20.jar                         | fd21553434f4905f2f73ea7838147ac4ea07bd88 |
+       | LCHIJA | cathedral                                    | 1.12.2-1.9.9             | Cathedral-1.12.2-1.9.9.jar                           | None                                     |
+       | LCHIJA | chameleon                                    | 1.12-4.1.3               | Chameleon-1.12-4.1.3.jar                             | None                                     |
+       | LCHIJA | chickens                                     | 6.0.4                    | chickens-6.0.4.jar                                   | None                                     |
+       | LCHIJA | chiseled_me                                  | 1.12-3.0.0.0-git-e5ce416 | chiseled-me-1.12-3.0.0.0-git-e5ce416.jar             | c677c954974252994736eb15e855e1e6fc5a2e62 |
+       | LCHIJA | chiselsandbits                               | 14.33                    | chiselsandbits-14.33.jar                             | None                                     |
+       | LCHIJA | supermartijn642configlib                     | 1.0.9                    | supermartijn642configlib-1.0.9-mc1.12.jar            | None                                     |
+       | LCHIJA | chunkloaders                                 | 1.1.7                    | chunkloaders-1.1.7-mc1.12.jar                        | None                                     |
+       | LCHIJA | clumps                                       | 3.1.2                    | Clumps-3.1.2.jar                                     | None                                     |
+       | LCHIJA | morpheus                                     | 1.12.2-3.5.106           | Morpheus-1.12.2-3.5.106.jar                          | None                                     |
+       | LCHIJA | comforts                                     | 1.4.1.3                  | comforts-1.12.2-1.4.1.3.jar                          | 2484ef4d131fdc0dca0647aa21b7b944ddb935a1 |
+       | LCHIJA | refinedstorage                               | 1.6.16                   | refinedstorage-1.6.16.jar                            | 57893d5b90a7336e8c63fe1c1e1ce472c3d59578 |
+       | LCHIJA | compactmachines3                             | 3.0.18                   | compactmachines3-1.12.2-3.0.18-b278.jar              | None                                     |
+       | LCHIJA | controlling                                  | 3.0.10                   | Controlling-3.0.10.jar                               | None                                     |
+       | LCHIJA | cookingforblockheads                         | 6.5.0                    | CookingForBlockheads_1.12.2-6.5.0.jar                | None                                     |
+       | LCHIJA | cosmeticarmorreworked                        | 1.12.2-v5a               | CosmeticArmorReworked-1.12.2-v5a.jar                 | aaaf83332a11df02406e9f266b1b65c1306f0f76 |
+       | LCHIJA | cts                                          | 1.0                      | craftabletardisstuff-1.0.jar                         | None                                     |
+       | LCHIJA | creativecore                                 | 1.10.0                   | CreativeCore_v1.10.69_mc1.12.2.jar                   | None                                     |
+       | LCHIJA | cucumber                                     | 1.1.3                    | Cucumber-1.12.2-1.1.3.jar                            | None                                     |
+       | LCHIJA | darkutils                                    | 1.8.230                  | DarkUtils-1.12.2-1.8.230.jar                         | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LCHIJA | movingworld                                  | 1.12-6.353               | movingworld-1.12-6.353-full.jar                      | None                                     |
+       | LCHIJA | davincisvessels                              | @DVESSELSVER@            | davincisvessels-1.12-6.355-full.jar                  | None                                     |
+       | LCHIJA | deathquotes                                  | 1.2.0                    | DeathQuotes-1.2.0-mc1.12-forge.jar                   | None                                     |
+       | LCHIJA | ptrmodellib                                  | 1.0.5                    | PTRLib-1.0.5.jar                                     | None                                     |
+       | LCHIJA | props                                        | 2.6.3.7                  | Decocraft-2.6.3.7_1.12.2.jar                         | None                                     |
+       | LCHIJA | draconicadditions                            | 1.17.0                   | Draconic-Additions-1.12.2-1.17.0.45-universal.jar    | None                                     |
+       | LCHIJA | dummycore                                    | 2.4.112.5.               | DummyCoreUnofficial-2.4.112.5.jar                    | None                                     |
+       | LCHIJA | orelib                                       | 3.6.0.1                  | OreLib-1.12.2-3.6.0.1.jar                            | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+       | LCHIJA | dsurround                                    | @VERSION@                | DynamicSurroundings-1.12.2-3.6.3.jar                 | None                                     |
+       | LCHIJA | dynview                                      | 1.3                      | dynviewdist-1.12-1.3.jar                             | None                                     |
+       | LCHIJA | mekanism                                     | 1.12.2-9.8.3.390         | Mekanism-1.12.2-9.8.3.390.jar                        | None                                     |
+       | LCHIJA | plustic                                      | @VERSION@                | plustic-8.0.3.jar                                    | None                                     |
+       | LCHIJA | soot                                         | 1.10-hotfix              | Soot-1.10-hotfix.jar                                 | None                                     |
+       | LCHIJA | libnine                                      | 1.2.1                    | libnine-1.12.2-1.2.1.jar                             | None                                     |
+       | LCHIJA | tconevo                                      | 1.0.44                   | tconevo-1.12.2-1.0.44.jar                            | None                                     |
+       | LCHIJA | embersconstruct                              | 1.3.2                    | embersconstruct-1.12.2-1.3.2.jar                     | None                                     |
+       | LCHIJA | emberstic                                    | 0.1.0                    | emberstic-0.1.0.jar                                  | None                                     |
+       | LCHIJA | enchantingwiththaumcraft                     | 1.3                      | enchantingwiththaumcraft-1.3.jar                     | None                                     |
+       | LCHIJA | enderiobase                                  | 5.3.70                   | EnderIO-1.12.2-5.3.70.jar                            | None                                     |
+       | LCHIJA | enderioconduits                              | 5.3.70                   | EnderIO-1.12.2-5.3.70.jar                            | None                                     |
+       | LCHIJA | enderioconduitsappliedenergistics            | 5.3.70                   | EnderIO-1.12.2-5.3.70.jar                            | None                                     |
+       | LCHIJA | opencomputers                                | 1.7.5.192                | OpenComputers-MC1.12.2-1.7.5.192.jar                 | None                                     |
+       | LCHIJA | enderioconduitsopencomputers                 | 5.3.70                   | EnderIO-1.12.2-5.3.70.jar                            | None                                     |
+       | LCHIJA | enderioconduitsrefinedstorage                | 5.3.70                   | EnderIO-1.12.2-5.3.70.jar                            | None                                     |
+       | LCHIJA | enderiointegrationforestry                   | 5.3.70                   | EnderIO-1.12.2-5.3.70.jar                            | None                                     |
+       | LCHIJA | enderiointegrationticlate                    | 5.3.70                   | EnderIO-1.12.2-5.3.70.jar                            | None                                     |
+       | LCHIJA | enderioinvpanel                              | 5.3.70                   | EnderIO-1.12.2-5.3.70.jar                            | None                                     |
+       | LCHIJA | enderiomachines                              | 5.3.70                   | EnderIO-1.12.2-5.3.70.jar                            | None                                     |
+       | LCHIJA | enderiopowertools                            | 5.3.70                   | EnderIO-1.12.2-5.3.70.jar                            | None                                     |
+       | LCHIJA | enderstorage                                 | 2.4.6.137                | EnderStorage-1.12.2-2.4.6.137-universal.jar          | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LCHIJA | ageofabyssalcraft                            | 0.7                      | Engender Mod-1.12.2-0.7-pre1.jar                     | None                                     |
+       | LCHIJA | ageofchaos                                   | 0.7                      | Engender Mod-1.12.2-0.7-pre1.jar                     | None                                     |
+       | LCHIJA | ageofminecraft                               | 0.7                      | Engender Mod-1.12.2-0.7-pre1.jar                     | None                                     |
+       | LCHIJA | extrabitmanipulation                         | 1.12.2-3.4.1             | ExtraBitManipulation-1.12.2-3.4.1.jar                | None                                     |
+       | LCHIJA | extra_spells                                 | 1.2.0                    | ExtraSpells-1.12.2-1.2.0.jar                         | None                                     |
+       | LCHIJA | extrautils2                                  | 1.0                      | extrautils2-1.12-1.9.9.jar                           | None                                     |
+       | LCHIJA | fairylights                                  | 2.1.10                   | fairylights-2.2.0-1.12.2.jar                         | None                                     |
+       | LCHIJA | fancylamps                                   | 1.2.1                    | fancylamps-1.2.1.jar                                 | None                                     |
+       | LCHIJA | fastleafdecay                                | v14                      | FastLeafDecay-v14.jar                                | None                                     |
+       | LCHIJA | ferdinandsflowers                            | 1.10.4.1                 | Ferdinand's Flowers-1.12.x-1.10.4.1.jar              | None                                     |
+       | LCHIJA | flatcoloredblocks                            | mc1.12-6.8               | flatcoloredblocks-mc1.12-6.8.jar                     | None                                     |
+       | LCHIJA | fluxnetworks                                 | 4.1.0                    | FluxNetworks-1.12.2-4.1.1.34.jar                     | None                                     |
+       | LCHIJA | foamfix                                      | 0.10.14-1.12.2           | foamfix-0.10.14-1.12.2.jar                           | None                                     |
+       | LCHIJA | forgelin                                     | 1.8.4                    | Forgelin-1.8.4.jar                                   | None                                     |
+       | LCHIJA | llibrary                                     | 1.7.20                   | llibrary-1.7.20-1.12.2.jar                           | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+       | LCHIJA | fossil                                       | 8.0.5                    | fossilsarcheology-8.0.5.jar                          | None                                     |
+       | LCHIJA | ftbbackups                                   | 1.1.0.1                  | FTBBackups-1.1.0.1.jar                               | None                                     |
+       | LCHIJA | cfm                                          | 6.3.1                    | furniture-6.3.1-1.12.2.jar                           | None                                     |
+       | LCHIJA | ichunutil                                    | 7.2.2                    | iChunUtil-1.12.2-7.2.2.jar                           | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+       | LCHIJA | generallaymansaestheticspyingscreen          | 7.0.0                    | GeneralLaymansAestheticSpyingScreen-1.12.2-7.0.0.jar | None                                     |
+       | LCHIJA | getinthebucketmod                            | 1.12.2-1.0.1             | getinthebucketmod-1.12.2-1.0.2.jar                   | None                                     |
+       | LCHIJA | gottschcore                                  | 1.14.1                   | GottschCore-mc1.12.2-f14.23.5.2854-v1.14.1.jar       | None                                     |
+       | LCHIJA | gravestone                                   | 1.3.1                    | GraveStone-1.12.2-Graves-1.3.1.jar                   | None                                     |
+       | LCHIJA | gravestone-extended                          | 1.3.5.1                  | GraveStone-1.12.2-Extended-1.3.5.1.jar               | None                                     |
+       | LCHIJA | gbook                                        | 2.9.5                    | Guidebook-1.12.2-2.9.5.jar                           | None                                     |
+       | LCHIJA | hammercore                                   | 2.0.6.32                 | HammerLib-1.12.2-2.0.6.32.jar                        | 9f5e2a811a8332a842b34f6967b7db0ac4f24856 |
+       | LCHIJA | hatchery                                     | 2.2.2                    | hatchery-1.12.2-2.2.2.jar                            | None                                     |
+       | LCHIJA | immersivecables                              | 1.3.2                    | ImmersiveCables-1.12.2-1.3.2.jar                     | None                                     |
+       | LCHIJA | improvedbackpacks                            | 1.12.2-1.5.0.0           | ImprovedBackpacks-1.12.2-1.5.0.0.jar                 | None                                     |
+       | LCHIJA | instantunify                                 | 1.1.2                    | instantunify-1.12.2-1.1.2.jar                        | None                                     |
+       | LCHIJA | ironbackpacks                                | 1.12.2-3.0.8-12          | IronBackpacks-1.12.2-3.0.8-12.jar                    | None                                     |
+       | LCHIJA | ironchest                                    | 1.12.2-7.0.67.844        | ironchest-1.12.2-7.0.72.847.jar                      | None                                     |
+       | LCHIJA | itemcollectors                               | 1.1.3                    | itemcollectors-1.1.3-mc1.12.jar                      | None                                     |
+       | LCHIJA | journeymap                                   | 1.12.2-5.7.1             | journeymap-1.12.2-5.7.1.jar                          | None                                     |
+       | LCHIJA | jee                                          | 1.0.8                    | JustEnoughEnergistics-1.12.2-1.0.8.jar               | None                                     |
+       | LCHIJA | jeid                                         | 1.0.3-55                 | JustEnoughIDs-1.0.3-55.jar                           | None                                     |
+       | LCHIJA | jeresources                                  | 0.9.2.60                 | JustEnoughResources-1.12.2-0.9.2.60.jar              | None                                     |
+       | LCHIJA | mystcraft                                    | 0.13.7.06                | mystcraft-1.12.2-0.13.7.06.jar                       | None                                     |
+       | LCHIJA | linking_tweaks                               | 1.0.0.0                  | linking_tweaks-1.12.2-1.0.0.0.jar                    | None                                     |
+       | LCHIJA | littletiles                                  | 1.5.0                    | LittleTiles_v1.5.57_mc1.12.2.jar                     | None                                     |
+       | LCHIJA | lost_aether                                  | 1.0.2                    | lost-aether-content-1.12.2-1.0.2.jar                 | None                                     |
+       | LCHIJA | lostcities                                   | 2.0.22                   | lostcities-1.12-2.0.22.jar                           | None                                     |
+       | LCHIJA | ltta                                         | 1.4.0                    | ltta-1.12.2-1.4.0.jar                                | None                                     |
+       | LCHIJA | lunatriuscore                                | 1.2.0.42                 | LunatriusCore-1.12.2-1.2.0.42-universal.jar          | None                                     |
+       | LCHIJA | mcjtylib_ng                                  | 3.5.4                    | mcjtylib-1.12-3.5.4.jar                              | None                                     |
+       | LCHIJA | immersivetech                                | 1.9.99                   | MCTImmersiveTechnology-1.12.2-1.9.99.jar             | None                                     |
+       | LCHIJA | mcwbridges                                   | 1.0.6                    | mcw-bridges-1.0.6b-mc1.12.2.jar                      | None                                     |
+       | LCHIJA | mcwdoors                                     | 1.3                      | mcw-doors-1.0.3-mc1.12.2.jar                         | None                                     |
+       | LCHIJA | mcwroofs                                     | 1.0.2                    | mcw-roofs-1.0.2-mc1.12.2.jar                         | None                                     |
+       | LCHIJA | mcwtrpdoors                                  | 1.0.2                    | mcw-trapdoors-1.0.3-mc1.12.2.jar                     | None                                     |
+       | LCHIJA | mcwwindows                                   | 1.0                      | mcw-windows-1.0.0-mc1.12.2.jar                       | None                                     |
+       | LCHIJA | mekanismgenerators                           | 1.12.2-9.8.3.390         | MekanismGenerators-1.12.2-9.8.3.390.jar              | None                                     |
+       | LCHIJA | mekanismtools                                | 1.12.2-9.8.3.390         | MekanismTools-1.12.2-9.8.3.390.jar                   | None                                     |
+       | LCHIJA | patchouli                                    | 1.0-23.6                 | Patchouli-1.0-23.6.jar                               | None                                     |
+       | LCHIJA | techguns                                     | 2.0.2.0                  | techguns-1.12.2-2.0.2.0_pre3.2.jar                   | None                                     |
+       | LCHIJA | mekores                                      | 2.0.13                   | mekores-2.0.13.jar                                   | None                                     |
+       | LCHIJA | memeinabottle                                | 3.0.0                    | MemeInABottle-1.12.X-3.0.0.jar                       | None                                     |
+       | LCHIJA | memorycleaner                                | 1.4                      | memorycleaner-1.4.jar                                | None                                     |
+       | LCHIJA | testdummy                                    | 1.12                     | MmmMmmMmmMmm-1.12-1.14.jar                           | None                                     |
+       | LCHIJA | mob_grinding_utils                           | 0.3.13                   | MobGrindingUtils-0.3.13.jar                          | None                                     |
+       | LCHIJA | morechickens                                 | 3.1.0                    | morechickens-1.12.2-3.1.0.jar                        | None                                     |
+       | LCHIJA | mystlibrary                                  | 1.12.2-0.0.3.1           | mystlibrary-1.12.2-0.0.3.1.jar                       | None                                     |
+       | LCHIJA | moremystcraft                                | 1.0.0                    | moremystcraft-1.12.2-1.0.0.jar                       | None                                     |
+       | LCHIJA | mousetweaks                                  | 2.10.1                   | MouseTweaks-2.10.1-mc1.12.2.jar                      | None                                     |
+       | LCHIJA | movingelevators                              | 1.2.34                   | movingelevators-1.2.34-mc1.12.jar                    | None                                     |
+       | LCHIJA | muchmoresymbols                              | 1.0.0                    | MuchMoreSymbols_v1.0.0.jar                           | None                                     |
+       | LCHIJA | mystoc                                       | 0.1                      | mystcraft-oc-0.1.jar                                 | None                                     |
+       | LCHIJA | mystcraft_info                               | 1.0.3.0                  | mystcraft_info-1.12.2-1.0.5.0.jar                    | None                                     |
+       | LCHIJA | mysticalagriculture                          | 1.7.5                    | MysticalAgriculture-1.12.2-1.7.5.jar                 | None                                     |
+       | LCHIJA | mysticalagradditions                         | 1.3.2                    | MysticalAgradditions-1.12.2-1.3.2.jar                | None                                     |
+       | LCHIJA | naturescompass                               | 1.8.5                    | NaturesCompass-1.12.2-1.8.5.jar                      | None                                     |
+       | LCHIJA | neat                                         | 1.4-17                   | Neat 1.4-17.jar                                      | None                                     |
+       | LCHIJA | netherportalfix                              | 5.3.17                   | NetherPortalFix_1.12.1-5.3.17.jar                    | None                                     |
+       | LCHIJA | yurtmod                                      | 9.5.2                    | NomadicTents-1.12.2-9.5.2.jar                        | None                                     |
+       | LCHIJA | oauth                                        | ${version}               | oauth-1.06.2.jar                                     | None                                     |
+       | LCHIJA | openmods                                     | 0.12.2                   | OpenModsLib-1.12.2-0.12.2.jar                        | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+       | LCHIJA | openblocks                                   | 1.8.1                    | OpenBlocks-1.12.2-1.8.1.jar                          | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+       | LCHIJA | openfm                                       | 0.1.0.19                 | OpenFM-1.12.2-0.1.0.19.jar                           | None                                     |
+       | LCHIJA | openglider                                   | @VERSION@                | OpenGlider-1.12.1-1.1.0.jar                          | None                                     |
+       | LCHIJA | openscreens                                  | 1.0.1                    | openscreens-1.12.2-1.0.1.jar                         | None                                     |
+       | LCHIJA | opensecurity                                 | 1.0-83                   | OpenSecurity-1.12.2-1.0-83.jar                       | None                                     |
+       | LCHIJA | oreexcavation                                | 1.4.150                  | OreExcavation-1.4.150.jar                            | None                                     |
+       | LCHIJA | overpoweredarmorbar                          | @VERSION@                | overloadedarmorbar-1.0.4g.jar                        | None                                     |
+       | LCHIJA | pages                                        | 2.0.0.1                  | pages-1.12.2-2.0.0.1.jar                             | None                                     |
+       | LCHIJA | harvestcraft                                 | 1.12.2zb                 | Pam's HarvestCraft 1.12.2zg.jar                      | None                                     |
+       | LCHIJA | particleculling                              | v1.3                     | particleculling-1.12.2-v1.3.jar                      | None                                     |
+       | LCHIJA | subcommonlib                                 | 1.2.0.1                  | subcommonlib-sublib-1.12.2-1.2.0.4.jar               | None                                     |
+       | LCHIJA | petbuddy                                     | $version                 | petbuddy-petbuddy-1.12.2-2.4.1.0.jar                 | None                                     |
+       | LCHIJA | pigstep                                      | 1.12                     | pigstep-1.12.jar                                     | None                                     |
+       | LCHIJA | placebo                                      | 1.6.0                    | Placebo-1.12.2-1.6.0.jar                             | None                                     |
+       | LCHIJA | portalgun                                    | 7.1.0                    | PortalGun-1.12.2-7.1.0.jar                           | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+       | LCHIJA | portality                                    | 1.0-SNAPSHOT             | portality-1.12.2-1.2.3-15.jar                        | None                                     |
+       | LCHIJA | projectintelligence                          | 1.0.9                    | ProjectIntelligence-1.12.2-1.0.9.28-universal.jar    | None                                     |
+       | LCHIJA | randomtweaks                                 | 1.12.2-2.8.3.1           | randomtweaks-1.12.2-2.8.3.1.jar                      | 20d08fb3fe9c268a63a75d337fb507464c8aaccd |
+       | LCHIJA | redstonearsenal                              | 2.6.6                    | RedstoneArsenal-1.12.2-2.6.6.1-universal.jar         | None                                     |
+       | LCHIJA | refined_avaritia                             | 2.6                      | refined_avaritia-1.12.2-2.6.jar                      | None                                     |
+       | LCHIJA | refinedstorageaddons                         | 0.4.5                    | refinedstorageaddons-0.4.5.jar                       | None                                     |
+       | LCHIJA | xreliquary                                   | 1.12.2-1.3.4.796         | Reliquary-1.12.2-1.3.4.796.jar                       | None                                     |
+       | LCHIJA | resound                                      | 1r                       | ReSound-1.12.2-1r.jar                                | None                                     |
+       | LCHIJA | rftools                                      | 7.73                     | rftools-1.12-7.73.jar                                | None                                     |
+       | LCHIJA | roost                                        | 2.0.10                   | roost-1.12.2-2.0.10.jar                              | None                                     |
+       | LCHIJA | satako                                       | 2.26                     | Satako 1.12-2.26.jar                                 | None                                     |
+       | LCHIJA | scarecrowsterritory                          | 1.1.3                    | scarecrowsterritory-1.1.3-mc1.12.jar                 | None                                     |
+       | LCHIJA | schematica                                   | 1.8.0.169                | Schematica-1.12.2-1.8.0.169-universal.jar            | None                                     |
+       | LCHIJA | simpleplanes                                 | 3.0.1.7                  | simpleplanes-1.12.2-3.0.1.7.jar                      | None                                     |
+       | LCHIJA | storagenetwork                               | 1.8.2                    | SimpleStorageNetwork-1.12.2-1.8.2.jar                | 0e5cb559be7d03f3fc18b8cba547d663e25f28af |
+       | LCHIJA | stg                                          | 1.12.2-1.2.3             | stg-1.12.2-1.2.3.jar                                 | None                                     |
+       | LCHIJA | storagedrawers                               | 5.2.2                    | StorageDrawers-1.12.2-5.4.2.jar                      | None                                     |
+       | LCHIJA | surge                                        | 2.0.79                   | Surge-1.12.2-2.0.79.jar                              | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LCHIJA | tc6aspects4jei                               | 0.0.2a                   | tc6aspects4jei-0.0.2a.jar                            | None                                     |
+       | LCHIJA | tesseract                                    | 1.0.24                   | tesseract-1.0.24-mc1.12.jar                          | None                                     |
+       | LCHIJA | thaumiconeprobe                              | 1.0.0                    | thaumic-one-probe-1.12.2-1.0.0.jar                   | None                                     |
+       | LCHIJA | thaumicaugmentation                          | 1.12.2-2.1.5             | ThaumicAugmentation-1.12.2-2.1.5.jar                 | 8f678591ba6f78d579e553a8aa94b4c4766cb13d |
+       | LCHIJA | thaumicbases                                 | 3.3.500.6r               | thaumicbases-3.3.500.6r.jar                          | None                                     |
+       | LCHIJA | thaumicbrewing                               | 1.0.2                    | thaumicbrewing-1.0.2.jar                             | None                                     |
+       | LCHIJA | thaumcomp                                    | 0.5.1                    | ThaumicComputers-MC1.12.2-0.5.1.jar                  | None                                     |
+       | LCHIJA | thaumicjei                                   | 1.6.0                    | ThaumicJEI-1.12.2-1.6.0-27.jar                       | None                                     |
+       | LCHIJA | thaumicenergistics                           | 2.2.3                    | thaumicenergistics-2.2.4.jar                         | None                                     |
+       | LCHIJA | thaumicfixes                                 | 1.0                      | thaumicfixes-1.0-nolibs.jar                          | None                                     |
+       | LCHIJA | tcinventoryscan                              | 2.0.10                   | ThaumicInventoryScanning_1.12.2-2.0.10.jar           | None                                     |
+       | LCHIJA | thaumicperiphery                             | 0.3.1                    | thaumicperiphery-0.3.1.jar                           | None                                     |
+       | LCHIJA | thaumicwands                                 | 1.2.6                    | thaumicwands-1.2.6.jar                               | None                                     |
+       | LCHIJA | thaumicrestoration                           | 1.5.0                    | ThaumicRestoration-1.5.0.jar                         | None                                     |
+       | LCHIJA | thaumicspeedup                               | 3.0                      | thaumicspeedup-3.0.jar                               | None                                     |
+       | LCHIJA | thaumicterminal                              | 1.0.12                   | ThaumicTerminal-1.0.12.jar                           | None                                     |
+       | LCHIJA | thaumictinkerer                              | 1.12.2-5.0-620a0c5       | thaumictinkerer-1.12.2-5.0-620a0c5.jar               | None                                     |
+       | LCHIJA | thaumicwonders                               | 1.8.2                    | thaumicwonders-1.8.2.jar                             | None                                     |
+       | LCHIJA | thaumtweaks                                  | 0.2.4.2                  | thaumtweaks-0.2.4.2.jar                              | None                                     |
+       | LCHIJA | thermalcultivation                           | 0.3.6                    | ThermalCultivation-1.12.2-0.3.6.1-universal.jar      | None                                     |
+       | LCHIJA | thermaldynamics                              | 2.5.6                    | ThermalDynamics-1.12.2-2.5.6.1-universal.jar         | None                                     |
+       | LCHIJA | thermalinnovation                            | 0.3.6                    | ThermalInnovation-1.12.2-0.3.6.1-universal.jar       | None                                     |
+       | LCHIJA | tcomplement                                  | 1.12.2-0.4.3             | TinkersComplement-1.12.2-0.4.3.jar                   | None                                     |
+       | LCHIJA | tinkersjei                                   | 1.2                      | tinkersjei-1.2.jar                                   | None                                     |
+       | LCHIJA | tinkersoc                                    | 0.6                      | tinkersoc-0.6.jar                                    | None                                     |
+       | LCHIJA | tinkertoolleveling                           | 1.12.2-1.1.0.DEV.b23e769 | TinkerToolLeveling-1.12.2-1.1.0.jar                  | None                                     |
+       | LCHIJA | tinymobfarm                                  | 1.0.5                    | TinyMobFarm-1.12.2-1.0.5.jar                         | None                                     |
+       | LCHIJA | toastcontrol                                 | 1.8.1                    | Toast Control-1.12.2-1.8.1.jar                       | None                                     |
+       | LCHIJA | toolbelt                                     | 1.9.14                   | ToolBelt-1.12.2-1.9.14.jar                           | None                                     |
+       | LCHIJA | trashcans                                    | 1.0.10                   | trashcans-1.0.10-mc1.12.jar                          | None                                     |
+       | LCHIJA | unlimitedchiselworks                         | 0.3.5                    | UnlimitedChiselWorks-0.3.5.jar                       | None                                     |
+       | LCHIJA | vanillafix                                   | 1.0.10-150               | VanillaFix-1.0.10-150.jar                            | None                                     |
+       | LCHIJA | wanionlib                                    | 1.12.2-2.7               | WanionLib-1.12.2-2.7.jar                             | None                                     |
+       | LCHIJA | waystones                                    | 4.1.0                    | Waystones_1.12.2-4.1.0.jar                           | None                                     |
+       | LCHIJA | woot                                         | 1.12.2-1.4.11            | woot-1.12.2-1.4.11.jar                               | None                                     |
+       | LCHIJA | recipehandler                                | 0.14                     | YARCF-0.14(1.12.2).jar                               | None                                     |
+       | LCHIJA | ancientspellcraft                            | 1.12.2-1.2.3             | AncientSpellcraft-1.12.2-1.2.3.jar                   | None                                     |
+       | LCHIJA | commons0815                                  | 1.4.0                    | Commons0815-1.12.2-1.4.0.jar                         | None                                     |
+       | LCHIJA | guitoolkit                                   | 1.4.0                    | Commons0815-1.12.2-1.4.0.jar                         | None                                     |
+       | LCHIJA | rendertoolkit                                | 1.4.0                    | Commons0815-1.12.2-1.4.0.jar                         | None                                     |
+       | LCHIJA | immersiveintelligence                        | 0.2.0.1                  | immersiveintelligence-0.2.0.1.jar                    | 770570c49a2652e64a9b29b9b9d9919ca68b7065 |
+       | LCHIJA | openglasses                                  | @VERSION@-53             | OpenGlasses-MC1.12.2-2.2-53.jar                      | None                                     |
+       | LCHIJA | phosphor-lighting                            | 1.12.2-0.2.7             | phosphor-forge-mc1.12.2-0.2.7-universal.jar          | None                                     |
+       | LCHIJA | thebetweenlands                              | 3.8.1                    | TheBetweenlands-3.8.1-universal.jar                  | 38067d6878811efb38b6a045521cfd80b9b60b38 |
+       | LCHIJA | armoryexpansion-conarm                       | 1.4.2                    | armoryexpansion-1.4.2.jar                            | None                                     |
+       | LCHIJA | mysticallib                                  | 1.12.2-1.13.0            | mysticallib-1.12.2-1.13.0.jar                        | None                                     |
+       | LCHIJA | unidict                                      | 1.12.2-3.0.10            | UniDict-1.12.2-3.0.10.jar                            | None                                     |
+       | UD     | advancedrocketrycore                         | 1                        | minecraft.jar                                        | None                                     |
+  Loaded coremods (and transformers): AdvancedRocketryPlugin (AdvancedRocketry-1.12.2-2.0.0-256-universal.jar)
+                                        zmaster587.advancedRocketry.asm.ClassTransformer
+                                      SuperMartijn642's Core Lib Plugin (supermartijn642corelib-1.0.15a-mc1.12.jar)
+                                        
+                                      IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+                                        blusunrize.immersiveengineering.common.asm.IEClassTransformer
+                                      AALoadingPlugin (arcanearchives-0.2.0.25-mixins8.jar)
+                                        
+                                      TransformerLoader (OpenComputers-MC1.12.2-1.7.5.192.jar)
+                                        li.cil.oc.common.asm.ClassTransformer
+                                      MovingWorldCore (movingworld-1.12-6.353-full.jar)
+                                        
+                                      MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+                                        mekanism.coremod.KeybindingMigrationHelper
+                                      PhosphorFMLLoadingPlugin (phosphor-forge-mc1.12.2-0.2.7-universal.jar)
+                                        
+                                      Quark Plugin (Quark-r1.6-179.jar)
+                                        vazkii.quark.base.asm.ClassTransformer
+                                      DCLoadingPlugin (DummyCoreUnofficial-2.4.112.5.jar)
+                                        DummyCore.ASM.DCASMManager
+                                      UniDictCoreMod (UniDict-1.12.2-3.0.10.jar)
+                                        wanion.unidict.core.UniDictCoreModTransformer
+                                      EnderCorePlugin (EnderCore-1.12.2-0.5.76-core.jar)
+                                        com.enderio.core.common.transform.EnderCoreTransformer
+                                        com.enderio.core.common.transform.SimpleMixinPatcher
+                                      IILoadingPlugin (immersiveintelligence-core-0.2.0.1.jar)
+                                        pl.pabilo8.immersiveintelligence.common.asm.IIClassTransformer
+                                      TconEvoCoreMod (tconevo-1.12.2-1.0.44.jar)
+                                        xyz.phanta.tconevo.coremod.TconEvoClassTransformer
+                                      TTPlugin (thaumtweaks-0.2.4.2.jar)
+                                        
+                                      SoundUnpack (OpenSecurity-1.12.2-1.0-83.jar)
+                                        
+                                      WitcheryLoadingPlugin (WitcheryResurrected-1.12.2-0.5.2.3-forge-all.jar)
+                                        net.msrandom.witchery.asm.WitcheryLoadingPlugin$Transformer
+                                      JustEnoughIDs Extension Plugin (JustEnoughIDs-1.0.3-55.jar)
+                                        org.dimdev.jeid.JEIDTransformer
+                                      Techguns Core (techguns-1.12.2-2.0.2.0_pre3.2.jar)
+                                        techguns.core.TechgunsASMTransformer
+                                      ThaumicWandsCore (thaumicwands-1.2.6.jar)
+                                        de.zpenguin.thaumicwands.asm.WandTransformer
+                                      RandomPatches (randompatches-1.12.2-1.22.1.10.jar)
+                                        com.therandomlabs.randompatches.core.RPTransformer
+                                      OFMDepLoader (OpenFM-1.12.2-0.1.0.19.jar)
+                                        
+                                      ForgelinPlugin (Forgelin-1.8.4.jar)
+                                        
+                                      Persistency (persistency-1.2.0.jar)
+                                        zone.rong.persistency.Persistency$ClientTransformer
+                                      Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.14-1.12.2.jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+                                      OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+                                        openmods.core.OpenModsClassTransformer
+                                      TransformLoader (DynamicSurroundings-1.12.2-3.6.3.jar)
+                                        
+                                      CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      SurgeLoadingPlugin (Surge-1.12.2-2.0.79.jar)
+                                        
+                                      Born in a Barn (Born In A Barn V1.8-1.12-1.1.jar)
+                                        com.chocohead.biab.BornInABarn
+                                      Thaumic Augmentation Core Plugin (ThaumicAugmentation-1.12.2-2.1.5.jar)
+                                        thecodex6824.thaumicaugmentation.core.TATransformer
+                                      ParticleCullingLoadingPlugin (particleculling-1.12.2-v1.3.jar)
+                                        
+                                      Scarecrow's Territory Plugin (scarecrowsterritory-1.1.3-mc1.12.jar)
+                                        
+                                      llibrary (llibrary-core-1.0.11-1.12.2.jar)
+                                        net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+                                        net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+                                      AstralCore (astralsorcery-1.12.2-1.10.27.jar)
+                                        
+                                      TheBetweenlandsLoadingPlugin (TheBetweenlands-3.8.1-core.jar)
+                                        thebetweenlands.core.TheBetweenlandsClassTransformer
+                                      VanillaFixLoadingPlugin (VanillaFix-1.0.10-150.jar)
+                                        
+                                      CreativePatchingLoader (CreativeCore_v1.10.69_mc1.12.2.jar)
+                                        
+                                      CorePlugin (ForgeEndertech-1.12.2-4.5.6.0-build.0619.jar)
+                                        
+                                      HCASM (HammerLib-1.12.2-2.0.6.32.jar)
+                                        com.zeitheron.hammercore.asm.HammerCoreTransformer
+                                      thaumicfixes (thaumicfixes-1.0-nolibs.jar)
+                                        
+                                      BiggerPacketsPlzCoreMod (biggerpacketsplz-since1.8-1.2.jar)
+                                        net.elnounch.mc.biggerpacketsplz.BiggerPacketsPlzClassTransformer
+                                      LittlePatchingLoader (LittleTiles_v1.5.57_mc1.12.2.jar)
+                                        com.creativemd.littletiles.LittleTilesTransformer
+  GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+  OpenModsLib class transformers: [llama_null_fix:FINISHED],[horse_base_null_fix:FINISHED],[pre_world_render_hook:FINISHED],[player_render_hook:FINISHED],[horse_null_fix:FINISHED]
+  Ender IO: No known problems detected.
+            Authlib is : /C:/Users/nicpi/AppData/Roaming/PrismLauncher/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
+            
+            !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            !!!You are looking at the diagnostics information, not at the crash.       !!!
+            !!!Scroll up until you see the line with '---- Minecraft Crash Report ----'!!!
+            !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  Pulsar/tconstruct loaded Pulses: - TinkerCommons (Enabled/Forced)
+                                   - TinkerWorld (Enabled/Not Forced)
+                                   - TinkerTools (Enabled/Not Forced)
+                                   - TinkerHarvestTools (Enabled/Forced)
+                                   - TinkerMeleeWeapons (Enabled/Forced)
+                                   - TinkerRangedWeapons (Enabled/Forced)
+                                   - TinkerModifiers (Enabled/Forced)
+                                   - TinkerSmeltery (Enabled/Not Forced)
+                                   - TinkerGadgets (Enabled/Not Forced)
+                                   - TinkerOredict (Enabled/Forced)
+                                   - TinkerIntegration (Enabled/Forced)
+                                   - TinkerFluids (Enabled/Forced)
+                                   - TinkerMaterials (Enabled/Forced)
+                                   - TinkerModelRegister (Enabled/Forced)
+                                   - chiselIntegration (Enabled/Not Forced)
+                                   - chiselsandbitsIntegration (Enabled/Not Forced)
+                                   - theoneprobeIntegration (Enabled/Not Forced)
+                                   - quarkIntegration (Enabled/Not Forced)
+  AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768
+  HammerCore Debug Information: Dependent Mods: None.
+  Pulsar/tcomplement loaded Pulses: - ModuleCommons (Enabled/Forced)
+                                    - ModuleMelter (Enabled/Not Forced)
+                                    - ModuleArmor (Enabled/Not Forced)
+                                    - ModuleSteelworks (Enabled/Not Forced)
+                                    - ChiselPlugin (Enabled/Not Forced)
+                                    - ToolLevelingPlugin (Enabled/Not Forced)
+                                    - Oredict (Enabled/Forced)
+  [DummyCore]: 'Special case ASM modification mods: ''Note, that these mods might not be involved in the crash in ANY WAY!''DummyCore just prints some known mods for a lot of ASM modifications''dummycore''EnderCore''CodeChickenLib'
+  Patchouli open book context: n/a
+  AE2 Integration: IC2:OFF, RC:OFF, MFR:OFF, Waila:OFF, InvTweaks:OFF, JEI:ON, Mekanism:ON, OpenComputers:ON, THE_ONE_PROBE:ON, TESLA:OFF, CRAFTTWEAKER:OFF
+  Suspected Mods: Unknown
+  Profiler Position: N/A (disabled)
+  Player Count: 1 / 8; [EntityPlayerMP['Nicpizza'/732, l='DoesThe"Haoran's Cult"Exist???', x=92.11, y=70.00, z=258.30, cm:size=1.0000]]
+  Type: Integrated Server (map_client.txt)
+  Is Modded: Definitely; Client brand changed to 'fml,forge'
